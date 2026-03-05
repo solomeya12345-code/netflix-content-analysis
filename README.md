@@ -19,10 +19,9 @@ The dataset contains metadata about titles available on Netflix, including infor
 * Library Type: Both original and licensed content.
 * Data Status: Includes missing values in key metadata fields.
 
-
+Key fields:
 | Column       | Description                                   |
 | ------------ | --------------------------------------------- |
-| show_id      | Unique identifier for each title              |
 | type         | Movie or TV Show                              |
 | title        | Title name                                    |
 | director     | Director(s) of the title                      |
@@ -33,7 +32,6 @@ The dataset contains metadata about titles available on Netflix, including infor
 | rating       | Content rating                                |
 | duration     | Movie duration (minutes) or number of seasons |
 | listed_in    | Genre categories                              |
-| description  | Short content description                     |
 
 ---
 
@@ -60,17 +58,7 @@ The dataset contains metadata about titles available on Netflix, including infor
 
 The analysis is organized into four main stages:
 
-1. **Dataset Overview**
-   Initial inspection of the dataset, loading libraries, and understanding data structure.
-
-2. **Data Cleaning**
-   Handling missing values, formatting dates, correcting inconsistent fields, and preparing data for analysis.
-
-3. **Exploratory Data Analysis (EDA)**
-   Investigation of Netflix catalog structure through five thematic analysis blocks.
-
-4. **Conclusion**
-   Summary of the key observations from the analysis.
+Dataset Overview → Data Cleaning → EDA (5 blocks) → Conclusion
 
 ---
 
